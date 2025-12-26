@@ -130,7 +130,7 @@ jobs:
         mv $USERPROFILE/clients/built base/tools/clients
         mv base stairspeedtest
     - name: Upload
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: stairspeedtest_reborn_win64
         path: stairspeedtest/
